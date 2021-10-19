@@ -63,7 +63,7 @@ const TodoList = ({ navigation }) => {
         >
           {/* Today's Tasks */}
           <View style={styles.tasksWrapper}>
-            <Text style={styles.sectionTitle}>Today's tasks</Text>
+            <Text style={styles.sectionTitle}>Tooooday's tasks</Text>
             <View style={styles.items}>
               {/* This is where the tasks will go! */}
               {tasklist.map((task, index) => {
